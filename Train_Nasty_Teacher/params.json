@@ -1,0 +1,19 @@
+{
+    "model_name": "resnet34",
+
+    "learning_rate": 0.1,
+    "schedule": [80, 120],
+    "gamma": 0.1,
+    "batch_size": 128,
+    "num_epochs": 200,
+    "num_workers": 4,
+    "augmentation": 1,
+    "cuda": 1,
+
+    "dataset": "SVHN",
+
+    "adversarial_model": "resnet34",
+    "adversarial_resume": "/home/yaof/trained_models/res34_normal_teacher_svhn",
+    "temperature": 4,
+    "weight": 0.04
+}
