@@ -1,0 +1,25 @@
+yaof@hal1.usc.edu or yaof@hal2.usc.edu
+Passphrase: 950923
+
+conda create -n env_pytorch python=3.7
+source activate yaof_env
+conda activate yaof_env
+python3 train.py
+
+import torch
+torch.__version__
+torch.version.cuda
+nvidia-smi
+
+ctrl+z: stop
+fg: continue
+ctrl+c: terminate
+
+ntop
+kill -9 2416010
+pip list
+
+While running the code on our GPUs please name the main file 
+as main.py or main_NT.py (NT meaning  nasty_teacher to us) 
+instead of some name like nasty_teacher.py so that it does not 
+become obvious on what topic we are doing research.
